@@ -1,5 +1,5 @@
 body {
-  background: #F0F0F3;
+  background: #f0f0f3;
   min-height: 100vh;
   margin: 0;
   display: flex;
@@ -39,7 +39,7 @@ h1 {
 
 /*...Shape...*/
 .grid__item__shape {
-  background: #F0F0F3;
+  background: #f0f0f3;
   border-radius: 8px;
   width: 100%;
   height: 152px;
@@ -51,11 +51,14 @@ h1 {
 }
 
 .grid__item:nth-of-type(2) .grid__item__shape {
-  box-shadow: inset -8px -8px 8px 0 rgba(174, 174, 192, 0.25), inset 8px 8px 8px 0 #fff, -8px -8px 24px 0 #fff, 8px 8px 24px 0 rgba(174, 174, 192, 0.4);
+  box-shadow: inset -8px -8px 8px 0 rgba(174, 174, 192, 0.25),
+    inset 8px 8px 8px 0 #fff, -8px -8px 24px 0 #fff,
+    8px 8px 24px 0 rgba(174, 174, 192, 0.4);
 }
 
 .grid__item:nth-of-type(3) .grid__item__shape {
-  box-shadow: inset -8px -8px 8px 0 rgba(255, 255, 255, 0.7), inset 8px 8px 8px 0 rgba(174, 174, 192, 0.2);
+  box-shadow: inset -8px -8px 8px 0 rgba(255, 255, 255, 0.7),
+    inset 8px 8px 8px 0 rgba(174, 174, 192, 0.2);
 }
 
 p.grid__item__shapeStat {
@@ -76,4 +79,4 @@ p.grid__item__shapeStat {
     grid-gap: 32px;
     grid-template-columns: repeat(1, 1fr);
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
